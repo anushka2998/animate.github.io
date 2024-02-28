@@ -34,12 +34,3 @@ h2 {
     margin-bottom: 15px;
 }
 
-#startButton {
-    background-color: #ffdd67; 
-    color: #151226;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    cursor: pointer;
-}
