@@ -43,3 +43,36 @@ h2 {
     font-size: 1.2em;
     cursor: pointer;
 }
+.tiles {
+  display: flex;
+  justify-content: space-around; /* Distribute tiles evenly */
+  margin-bottom: 20px; 
+}
+
+.tile {
+  position: relative; /* Crucial for hover effect */
+  width: 250px; /* Adjust width as needed */
+  margin: 10px; 
+}
+
+.tile img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+.tile figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  color: white;
+  padding: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s; /* Smooth hover effect */
+}
+
+.tile:hover figcaption {
+  opacity: 1; /* Visible on hover */
+}
