@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    background-color: #151226; /* Dark background */
+    color: #f5f5f5; 
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #382468; /* Anime-ish purple */
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffdd67; /* Energetic yellow */
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1494158027930-07d63135cfdf?ixlib=rb-1.6.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); /* Replace with a cool anime background */
+    background-size: cover;
+    background-position: center; 
+    min-height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+#startButton {
+    background-color: #ffdd67; 
+    color: #151226;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
