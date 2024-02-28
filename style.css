@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif; 
     margin: 0;
-    background-color: #000000; /* Pure black background */
+    background-color: #151226; /* Dark background */
     color: #f5f5f5; 
 }
 
@@ -17,7 +17,7 @@ h1 {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(''); /* Replace with a cool anime background */
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1494158027930-07d63135cfdf?ixlib=rb-1.6.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); /* Replace with a cool anime background */
     background-size: cover;
     background-position: center; 
     min-height: 400px; 
@@ -34,3 +34,12 @@ h2 {
     margin-bottom: 15px;
 }
 
+#startButton {
+    background-color: #ffdd67; 
+    color: #151226;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
