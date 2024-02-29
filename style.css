@@ -35,6 +35,31 @@ h1 {
   justify-content: center;
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+}
+
+#prevButton, #nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#prevButton {
+  left: 10px;
+}
+
+#nextButton {
+  right: 10px;
+}
+
 .hero-content {
   text-align: left;
 }
