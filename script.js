@@ -31,6 +31,42 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var images = ["anime1.jpg", "anime2.jpg", "anime3.jpg"]; // Array of image sources
+    var currentImageIndex = 0;
+    var heroImage = document.getElementById('heroImage');
+    var prevButton = document.getElementById('prevButton');
+    var nextButton = document.getElementById('nextButton');
+
+    prevButton.addEventListener('click', function() {
+        if (currentImageIndex > 0) {
+            currentImageIndex--;
+        } else {
+            currentImageIndex = images.length - 1; // Loop back to the last image
+        }
+        updateImageSource();
+    });
+
+    nextButton.addEventListener('click', function() {
+        if (currentImageIndex < images.length - 1) {
+            currentImageIndex++;
+        } else {
+            currentImageIndex = 0; // Loop back to the first image
+        }
+        updateImageSource();
+    });
+
+    function updateImageSource() {
+        heroImage.src = images[currentImageIndex];
+    }
+
+    updateImageSource(); // Load the initial image when the page loads
+});
+
+
 /*document.addEventListener('DOMContentLoaded', function() {
     var videos = ["Video1.mp4", "video2.mp4", "video3.mp4","video4.mp4"]; // Add your video file names here
     var currentVideoIndex = 0;
