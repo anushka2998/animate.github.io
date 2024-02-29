@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    var videos = ["video5.mp4", "video2.mp4", "video3.mp4","video4.mp4","Video1.mp4"]; // Array of video sources
+    var videos = ["video3.mp4", "video2.mp4","video4.mp4","Video1.mp4","video5.mp4"]; // Array of video sources
     var currentVideoIndex = 0;
     var heroVideo = document.getElementById('heroVideo');
     var prevButton = document.getElementById('prevButton');
