@@ -26,7 +26,7 @@ h1 {
 }
 
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(''); /* Replace with an anime background */
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1494158027930-07d63135cfdf?ixlib=rb-1.6.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); /* Replace with an anime background */
   background-size: cover;
   background-position: center; 
   min-height: 400px; 
