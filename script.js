@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var prevButton = document.getElementById('prevButton');
     var nextButton = document.getElementById('nextButton');
 
-    updateVideoSource(); // Load the initial video when the page loads
+   // updateVideoSource(); // Load the initial video when the page loads
 
     prevButton.addEventListener('click', function() {
         if (currentVideoIndex > 0) {
