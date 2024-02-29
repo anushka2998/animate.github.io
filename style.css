@@ -37,8 +37,9 @@ h1 {
 
 .video-container {
   position: relative;
-  width: 100%; /* Adjust the width as per your design */
-  padding-top: 100%; /* 7 / 16 = 0.4375; 0.4375 * 100 = 43.75% */
+  width: 100vw; /* Adjust the width as per your design */
+  height: 100vh;
+  //padding-top: 100%; /* 7 / 16 = 0.4375; 0.4375 * 100 = 43.75% */
   overflow: hidden;
 }
 
