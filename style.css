@@ -6,13 +6,13 @@ body {
 }
 
 header {
-  text-align: left;
-  padding: 10px;
+  text-align: center;
+  padding: 5px;
   background-color: #382468; /* Anime-ish purple */
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   /* color: #ffdd67; Energetic yellow */
 }
 
