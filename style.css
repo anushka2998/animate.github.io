@@ -8,7 +8,8 @@ body {
 header {
   text-align: center;
   padding: 5px;
-  background-color: #382468; /* Anime-ish purple */
+  background-color: #000000; /* Black background color */
+ /* background-color: #382468;  Anime-ish purple */
 }
 
 h1 {
