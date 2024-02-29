@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    var images = ["anime1.jpg", "anime2.jpg", "anim3.jpg"]; // Array of image sources
+    var images = ["anime1.jpg", "anime2.jpg", "anime3.jpg"]; // Array of image sources
     var currentImageIndex = 0;
     var heroImage = document.getElementById('heroImage');
     var prevButton = document.getElementById('prevButton');
