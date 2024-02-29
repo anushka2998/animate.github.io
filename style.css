@@ -42,7 +42,7 @@ h1 {
 #heroVideo {
   width: 100%; /* Adjust the width as per your design */
   height: auto; /* This ensures the aspect ratio is maintained */
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7;
 }
 
 h2 {
