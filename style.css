@@ -51,6 +51,15 @@ h1 {
   object-fit: cover; /* This will cover the entire area of the container */
 }
 
+#heroImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This will cover the entire area of the container */
+}
+
 #prevButton, #nextButton {
   position: absolute;
   top: 50%;
